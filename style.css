@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+h1{
+    color : rgb(149, 0, 255);
+}
+
+p{  
+    margin-top: 100px;
+    color : purple;
+    font-weight: bold;
+}
+
+button{
+    background-color: purple;
+    border: none;
+    height: 27px;
+    width: 70px;
+    color: white;
+    font-family: monospace;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(149, 0, 255);
+}
+button:active{
+    transform: scale(0.95);
+}
+input{
+    background-color: beige;
+    font-family: monospace;
+    border-radius: 5px;
+    width:500px;
+}
+footer{
+    color: beige;
+    font-family: monospace;
+    position:absolute;
+    bottom:0;
+    background-color: rgba(220, 220, 245, 0.2);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    height:10px;
+    font-size:0.75em;
+}
